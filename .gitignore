@@ -1,0 +1,47 @@
+# Eclipse (and other IDE) specific files
+.metadata/
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled class files
+*.class
+
+# Jar and War files
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+*.txt # Be careful if you have important text files, adjust as needed
+
+# Build output directories
+/bin/
+/build/
+/out/
+target/ # For Maven projects
+bin/ # For Gradle projects
+build/ # For Gradle projects
+
+# Maven/Gradle specific
+.gradle/
+.project.gradle
+gradle-app.setting
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Virtual Machine crash logs, etc.
+hs_err_pid*
+
+# Package-lock.json and node_modules (if front-end is in same repo)
+# package-lock.json
+# /node_modules

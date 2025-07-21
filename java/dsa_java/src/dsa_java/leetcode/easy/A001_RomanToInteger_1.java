@@ -68,6 +68,7 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 	public static int romanToInt(String s) {
 		
 		/*
+		 * USING BASIC BRUTE FORCE: IF ELSE CASES
 		 * Runtime
 			58ms
 			Beats5.05% (BAD)
